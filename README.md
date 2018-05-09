@@ -8,7 +8,7 @@ V-REP robot simulator, SWI-Prolog and PySWIP Python library are needed:
 -  https://github.com/yuce/pyswip
 
 
-Like any V-REP project, you have to put the following files in "SWIPrologPythonRobotForVREP" directory, in order to run it:
+Like any V-REP project, you have to put the following files in the working directory, in order to run it:
 -  vrep.py
 -  vrepConst.py
 -  the appropriate remote API library: "remoteApi.dll" (Windows), "remoteApi.dylib" (Mac) or "remoteApi.so" (Linux)
