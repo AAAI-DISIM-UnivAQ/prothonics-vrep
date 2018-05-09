@@ -18,9 +18,7 @@ import RobotWorld
 
 def main():
     DELAY = 0.001 # in seconds
-    #Se il Delay è piccolo, il cervello è più veloce ma consuma più CPU -> dobbiamo bilanciare il tutto,
-    #facendo di volta in volta verifiche (metodo euristico).
-
+    
     simWorld = RobotWorld.World(host='127.0.0.1', portNumber=19997)
     robBrain = RobotWorld.RobotBrain()
     robBrain.learn('behaviour.pl')
