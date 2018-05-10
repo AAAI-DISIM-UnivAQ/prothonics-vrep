@@ -18,8 +18,6 @@ Like any V-REP project, you have to put the following files in the working direc
 
 Distributed under the Apache License 2.0. See ``LICENSE`` for more information.
 
-[https://github.com/agnsal](https://github.com/agnsal)
-
 
 ## Contributing
 
