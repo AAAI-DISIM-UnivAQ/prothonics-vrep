@@ -4,20 +4,17 @@ Python 3 robot that gets sensor data from V-REP simulator and takes decisions by
 
 V-REP robot simulator, SWI-Prolog and PySWIP Python library are needed: 
 -  http://www.coppeliarobotics.com/
--  http://www.swi-prolog.org/
--  https://github.com/yuce/pyswip
+-  http://staff.itee.uq.edu.au/pjr/HomePages/PedroHome.html
 
 
 Like any V-REP project, you have to put the following files in the working directory, in order to run it:
 -  vrep.py
 -  vrepConst.py
 -  the appropriate remote API library: "remoteApi.dll" (Windows), "remoteApi.dylib" (Mac) or "remoteApi.so" (Linux)
--  simpleTest.py (or any other example file)
+-  simpleTest.py (or any other example file) to test basic functionality
 
 
-## Contacts
-
-Agnese Salutari – agneses92@hotmail.it
+## License
 
 Distributed under the Apache License 2.0. See ``LICENSE`` for more information.
 
